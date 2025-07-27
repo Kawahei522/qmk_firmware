@@ -1,9 +1,5 @@
-# ポインティングデバイス（トラックボール）を有効にする
-POINTING_DEVICE_ENABLE = yes
-POINTING_DEVICE_DRIVER = pimoroni_trackball
-
 SPLIT_KEYBOARD = yes
-RGBLIGHT_ENABLE = yes
-SPLIT_RGB_ENABLE = yes
+#RGBLIGHT_ENABLE = yes
+#SPLIT_RGB_ENABLE = yes
 
 KEYBOARD_LANGUAGE = jp
