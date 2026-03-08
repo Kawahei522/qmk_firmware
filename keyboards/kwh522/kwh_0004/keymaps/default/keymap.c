@@ -109,7 +109,7 @@ bool oled_task_user(void) {
             oled_clear();
             clear_line(ROW_TITLE);
             oled_set_cursor(0, ROW_TITLE);
-            oled_write_P(PSTR("Tzolk'in v.2.0"), false);
+            oled_write_P(PSTR("Tzolk'in v.2.1"), false);
             slave_drawn = true;
         }
         return false;
@@ -122,7 +122,7 @@ bool oled_task_user(void) {
         // タイトル（row1）
         clear_line(ROW_TITLE);
         oled_set_cursor(0, ROW_TITLE);
-        oled_write_P(PSTR("Tzolk'in v.2.0"), false);
+        oled_write_P(PSTR("Tzolk'in v.2.1"), false);
 
         // 情報（row3）: "Layer: Base" / "Layer: Fn" ＋ Caps ONなら " / Caps"
         clear_line(ROW_INFO);
