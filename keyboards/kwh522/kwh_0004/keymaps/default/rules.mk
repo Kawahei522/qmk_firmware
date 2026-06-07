@@ -9,7 +9,7 @@ SPLIT_LAYER_STATE_ENABLE = yes
 BOOTLOADER = caterina
 
 # まだなら追加
-LTO_ENABLE = yes
+LTO_ENABLE = no
 
 # 使ってなければ全部 no
 CONSOLE_ENABLE = no

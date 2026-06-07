@@ -8,6 +8,8 @@
 #define TAPPING_TERM 200  // （必要なら）ホールド判定の時間
 
 #define DEBOUNCE 20  // チャタリング対策（デフォルト5ms → 20ms）
-
+//#define SPLIT_HAND_PIN_LOW_IS_RIGHT
+#define SPLIT_USB_DETECT
 
 #define OLED_DISPLAY_128X32
+#define RGBLIGHT_SPLIT
