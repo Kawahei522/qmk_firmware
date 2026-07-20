@@ -1,6 +1,6 @@
 {
     "manufacturer": "Yasuhiro Kawahira",
-    "keyboard_name": "kwh_0004",
+    "keyboard_name": "Tzolk'n ver.2.1",
     "maintainer": "Kawahei522",
     "development_board": "promicro",
     "diode_direction": "COL2ROW",
@@ -95,16 +95,11 @@
     "rgblight": {
         "led_count": 63,
         "animations": {
-            "alternating": true,
             "breathing": true,
-            "christmas": true,
             "knight": true,
             "rainbow_mood": true,
             "rainbow_swirl": true,
-            "rgn_test": true,
-            "snake": true,
-            "static_gradient": true,
-            "twinkle": true
+            "static_gradient": true
         },
         "sleep": true,
         "max_brightness": 120,

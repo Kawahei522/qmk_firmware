@@ -7,6 +7,7 @@ OLED_DRIVER_ENABLE = yes
 SPLIT_LAYER_STATE_ENABLE = yes
 
 BOOTLOADER = caterina
+VIA_ENABLE = yes
 
 # まだなら追加
 LTO_ENABLE = no
